@@ -20,15 +20,15 @@ public class StepsTest {
         step("Open the main page", () -> {
             open("https://github.com");
         });
-        step ("Searching repository" + REPOSITORY, () -> {
+        step ("Searching repository " + REPOSITORY, () -> {
             $(".header-search-input").click();
             $(".header-search-input").setValue(REPOSITORY).submit();
 
         });
-        step("Clicking on repository's link" + REPOSITORY, () -> {
+        step("Clicking on repository's link " + REPOSITORY, () -> {
             $(linkText("IrinaRiz/Algorithms")).click();
         });
-        step("Checking tab Issues is showing up on repository page" + REPOSITORY, () ->{
+        step("Checking tab Issues is showing up on repository page " + REPOSITORY, () ->{
             $("#issues-tab").should((Condition.visible));
         });
     }
