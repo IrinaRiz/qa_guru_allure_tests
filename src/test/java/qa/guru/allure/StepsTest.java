@@ -26,7 +26,7 @@ public class StepsTest {
 
         });
         step("Clicking on repository's link " + REPOSITORY, () -> {
-            $(linkText("IrinaRiz/Algorithms")).click();
+            $(linkText(REPOSITORY)).click();
         });
         step("Checking tab Issues is showing up on repository page " + REPOSITORY, () ->{
             $("#issues-tab").should((Condition.visible));
