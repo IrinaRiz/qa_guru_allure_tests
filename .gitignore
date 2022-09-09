@@ -14,7 +14,7 @@
 *.properties
 
 # Package Files #
-*.jar
+
 *.war
 *.nar
 *.ear
@@ -27,7 +27,6 @@
 .idea
 .allure/
 .gradle/
-allure-results/
 gradle/
 build/
 bin/
@@ -38,5 +37,5 @@ target/
 .project
 .settings/org.eclipse.buildship.core.prefs
 .vscode
-/gradlew
-/gradlew.bat
+
+
