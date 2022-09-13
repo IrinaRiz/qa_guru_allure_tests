@@ -19,7 +19,5 @@ public class SelenideTest {
         $(".header-search-input").setValue("IrinaRiz/Algorithms").submit();
         $(linkText("IrinaRiz/Algorithms")).click();
         $("#issues-tab").should((Condition.visible));
-
-
     }
 }

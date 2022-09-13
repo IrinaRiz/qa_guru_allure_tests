@@ -41,6 +41,5 @@ public class StepsTest {
         steps.searchForRepository(REPOSITORY);
         steps.clickOnRepository(REPOSITORY);
         steps.checkVisibilityOfTabIssues();
-
     }
 }

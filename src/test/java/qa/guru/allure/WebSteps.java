@@ -28,7 +28,6 @@ public class WebSteps {
     @Step("Clicking on repository's link {repo}" )
     public void clickOnRepository(String repo){
         $(linkText(repo)).click();
-
     }
 
     @Step("Checking tab Issues is showing up on repository page" )

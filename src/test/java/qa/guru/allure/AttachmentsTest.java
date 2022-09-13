@@ -20,8 +20,6 @@ public class AttachmentsTest {
         step("Open the main page", () -> {
             open("https://github.com");
             attachment("Source", webdriver().driver().source());
-
-
         });
     }
 
